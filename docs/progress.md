@@ -1,4 +1,4 @@
-# Reminder PWA - 开发进度
+# 叮咚 DingDong - 开发进度
 
 > 本文件由项目经理 Agent 实时更新，子 Agent 重启后可据此恢复进度。
 
@@ -6,7 +6,7 @@
 
 | 项目 | 说明 |
 |------|------|
-| 仓库 | github.com/[待创建] |
+| 仓库 | [github.com/WileyWong23/dingdong](https://github.com/WileyWong23/dingdong) |
 | 部署 | Vercel |
 | 开始日期 | 2026-04-15 |
 | 状态 | 📋 规划阶段 |
@@ -24,8 +24,8 @@
 
 | # | 里程碑 | 状态 | 负责 | 备注 |
 |---|--------|------|------|------|
-| M1 | 架构文档 + PRD | 🔄 进行中 | PM | 用户确认后进入开发 |
-| M2 | GitHub 仓库建立 | ⏳ 待办 | PM | |
+| M1 | 架构文档 + PRD | ✅ 完成 | PM | 用户待确认 |
+| M2 | GitHub 仓库建立 | ✅ 完成 | PM | https://github.com/WileyWong23/dingdong |
 | M3 | UI 设计稿产出 | ⏳ 待办 | Agent-FE | 用户确认后开发 |
 | M4 | 测试用例产出 | ⏳ 待办 | Agent-QA | 用户确认后测试 |
 | M5 | 后端 API 开发完成 | ⏳ 待办 | Agent-BE | |
