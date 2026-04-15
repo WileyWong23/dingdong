@@ -78,7 +78,7 @@ export async function subscribeToPush(): Promise<PushSubscription | null> {
       // 创建新订阅
       subscription = await registration.pushManager.subscribe({
         userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY) as BufferSource,
       });
     }
     
@@ -163,7 +163,6 @@ export function showLocalNotification(title: string, body: string, data?: Record
       icon: '/icons/icon-192x192.png',
       badge: '/icons/icon-72x72.png',
       data,
-      vibrate: [100, 50, 100],
       requireInteraction: true,
       tag: 'dingdong-reminder',
     });

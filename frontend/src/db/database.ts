@@ -31,7 +31,7 @@ export const dbHelpers = {
     return db.reminders.add(reminder);
   },
 
-  async updateReminder(reminder: Reminder): Promise<number> {
+  async updateReminder(reminder: Reminder): Promise<string> {
     return db.reminders.put(reminder);
   },
 
