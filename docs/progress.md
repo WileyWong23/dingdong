@@ -9,7 +9,7 @@
 | 仓库 | [github.com/WileyWong23/dingdong](https://github.com/WileyWong23/dingdong) |
 | 部署 | Vercel |
 | 开始日期 | 2026-04-15 |
-| 状态 | 📋 规划阶段 |
+| 状态 | 🚀 开发阶段 |
 
 ## 团队分工
 
@@ -26,7 +26,7 @@
 |---|--------|------|------|------|
 | M1 | 架构文档 + PRD | ✅ 完成 | PM | 用户待确认 |
 | M2 | GitHub 仓库建立 | ✅ 完成 | PM | https://github.com/WileyWong23/dingdong |
-| M3 | UI 设计稿产出 | ⏳ 待办 | Agent-FE | 用户确认后开发 |
+| M3 | UI 设计稿产出 | ✅ 完成 | Agent-FE | HTML 原型已确认 |
 | M4 | 测试用例产出 | ⏳ 待办 | Agent-QA | 用户确认后测试 |
 | M5 | 后端 API 开发完成 | ⏳ 待办 | Agent-BE | |
 | M6 | 前端开发完成 | ⏳ 待办 | Agent-FE | |
@@ -47,8 +47,9 @@
 
 ### Phase 2: 设计
 
-- [ ] UI 设计稿
-- [ ] 用户确认设计稿
+- [x] UI 设计规范文档
+- [x] HTML 高保真原型
+- [x] 用户确认设计稿
 
 ### Phase 3: 并行开发
 
