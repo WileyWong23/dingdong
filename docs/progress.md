@@ -28,8 +28,8 @@
 | M2 | GitHub 仓库建立 | ✅ 完成 | PM | https://github.com/WileyWong23/dingdong |
 | M3 | UI 设计稿产出 | ✅ 完成 | Agent-FE | HTML 原型已确认 |
 | M4 | 测试用例产出 | ⏳ 待办 | Agent-QA | 用户确认后测试 |
-| M5 | 后端 API 开发完成 | ⏳ 待办 | Agent-BE | |
-| M6 | 前端开发完成 | ⏳ 待办 | Agent-FE | |
+| M5 | 后端 API 开发完成 | ✅ 完成 | Agent-BE | 所有 API + 调度引擎 |
+| M6 | 前端开发完成 | ✅ 完成 | Agent-FE | React PWA 全组件 |
 | M7 | 集成测试通过 | ⏳ 待办 | Agent-QA | |
 | M8 | Vercel 部署上线 | ⏳ 待办 | PM | |
 | M9 | 用户验收 | ⏳ 待办 | PM | |
@@ -54,26 +54,26 @@
 ### Phase 3: 并行开发
 
 **后端 Agent-BE 任务清单：**
-- [ ] 项目初始化（Hono + Vercel）
-- [ ] Vercel KV 封装
-- [ ] Reminder CRUD API
-- [ ] Push Subscription API
-- [ ] web-push 集成
-- [ ] 调度引擎 (scheduler.ts)
-- [ ] Cron Job 实现
-- [ ] API 单元测试
+- [x] 项目初始化（Hono + Vercel）
+- [x] Vercel KV 封装
+- [x] Reminder CRUD API
+- [x] Push Subscription API
+- [x] web-push 集成
+- [x] 调度引擎 (scheduler.ts)
+- [x] Cron Job 实现
+- [ ] API 单元测试（待补充）
 
 **前端 Agent-FE 任务清单：**
-- [ ] 项目初始化（Vite + React + TS）
-- [ ] Tailwind 配置
-- [ ] PWA Manifest + Service Worker
-- [ ] IndexedDB Schema (Dexie)
-- [ ] 提醒列表页面
-- [ ] 创建/编辑提醒表单
-- [ ] 调度规则编辑器 (ScheduleEditor)
-- [ ] 通知权限引导
-- [ ] Push 订阅集成
-- [ ] 响应式布局
+- [x] 项目初始化（Vite + React + TS）
+- [x] Tailwind 配置
+- [x] PWA Manifest + Service Worker
+- [x] IndexedDB Schema (Dexie)
+- [x] 提醒列表页面
+- [x] 创建/编辑提醒表单
+- [x] 调度规则编辑器 (ScheduleEditor)
+- [x] 通知权限引导
+- [x] Push 订阅集成
+- [x] 响应式布局
 
 ### Phase 4: 测试
 
